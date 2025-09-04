@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CRUD.DBRoomActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:hint="Id Lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:hint="Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:id="@+id/editTextDescripcion"
+        android:hint="Descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:id="@+id/editTextLatitud"
+        android:hint="Latitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:id="@+id/editTextLongitud"
+        android:hint="Longitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonLook"
+        android:text="Ver un mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/buttonList"
+        android:text="Ver la lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/buttonInsert"
+        android:text="Insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:text="Actualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/buttonDelete"
+        android:text="Borrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/buttonExit"
+        android:text="Salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:text="Este es un mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MenuActions</string>
+    <string name="graphic"> Grafico</string>
+    <string name="maps"> Google maps</string>
+    <string name="database"> Base de datos</string>
+    <string name="operations"> Operaciones</string>
+    <string name="exit"> Salir</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
