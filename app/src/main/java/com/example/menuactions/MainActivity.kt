@@ -72,5 +72,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AnimeActivity::class.java)
             startActivity(intent)
         }
+        binding.buttonServies.setOnClickListener {
+            val intent = Intent(this, ServiceWebActivity::class.java);
+            startActivity(intent);
+        }
     }
 }

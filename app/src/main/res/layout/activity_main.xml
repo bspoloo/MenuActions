@@ -73,6 +73,13 @@
             >
         </Button>
         <Button
+            android:id="@+id/buttonServies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Services"
+            >
+        </Button>
+        <Button
             android:id="@+id/buttonExit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
