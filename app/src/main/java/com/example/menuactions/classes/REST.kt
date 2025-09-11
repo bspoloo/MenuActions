@@ -7,8 +7,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class REST {
     companion object{
-        val BASE_URL = "https://jsonplaceholder.typicode.com/";
-
+        //val BASE_URL = "https://jsonplaceholder.typicode.com/";
+        val BASE_URL = "http://192.168.255.104:3000/";
         fun getRestEngine(): Retrofit{
             val interceptor : HttpLoggingInterceptor = HttpLoggingInterceptor();
             interceptor.setLevel(HttpLoggingInterceptor.Level.BODY)

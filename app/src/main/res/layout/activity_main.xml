@@ -80,6 +80,13 @@
             >
         </Button>
         <Button
+            android:id="@+id/buttonNestjs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NestJS services"
+            >
+        </Button>
+        <Button
             android:id="@+id/buttonExit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

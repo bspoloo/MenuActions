@@ -76,5 +76,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ServiceWebActivity::class.java);
             startActivity(intent);
         }
+        binding.buttonNestjs.setOnClickListener {
+            val intent = Intent(this, NestjsActivity::class.java);
+            startActivity(intent);
+        }
+        buttonExit.setOnClickListener {
+            finish();
+        }
     }
 }
