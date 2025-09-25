@@ -60,6 +60,11 @@ dependencies {
     kapt("androidx.room:room-compiler:2.7.0")
     implementation("androidx.room:room-ktx:2.7.0")
 
+    //RxJava
+    implementation("io.reactivex.rxjava3:rxjava:3.1.8")
+    implementation("io.reactivex.rxjava3:rxandroid:3.0.2")
+    implementation("com.squareup.retrofit2:adapter-rxjava3:2.9.0")
+
     //to Retrofid and cosume Services API
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
