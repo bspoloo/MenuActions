@@ -87,6 +87,13 @@
             >
         </Button>
         <Button
+            android:id="@+id/buttonWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clima"
+            >
+        </Button>
+        <Button
             android:id="@+id/buttonExit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
