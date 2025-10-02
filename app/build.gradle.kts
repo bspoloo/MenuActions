@@ -65,6 +65,9 @@ dependencies {
     implementation("io.reactivex.rxjava3:rxandroid:3.0.2")
     implementation("com.squareup.retrofit2:adapter-rxjava3:2.9.0")
 
+    implementation("androidx.cardview:cardview:1.0.0")
+    implementation("com.google.android.material:material:1.9.0")
+
     //to Retrofid and cosume Services API
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
